@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 15rem;
+    height: auto;
+    padding: 1rem;
+    box-sizing: content-box;
+}
+
+.img-guru img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.container-img img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-galeri img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.dash-headMaster-img {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    /* background-color: red; */
+}
+
+.dash-headMaster-img img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.img-dash-struktur-organisasi {
+    width: 10rem;
+    height: 10rem;
+}
+
+.container-img-berita-user {
+    width: 100%;
+    height: 15rem;
+}
+
+.judul-berita-user {
+    text-transform: capitalize;
+}
+
+.judul-berita-user a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.judul-berita-user a:hover {
+    color: #e94a4b;
+}
+
+.date-berita-user p {
+    color: #e74a3b;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.desc-berita-user {
+  margin-top: -1rem;
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+.img-home-kepsek {
+    width: 15rem;
+    height: 15rem;
+}
+
+/* Berita details */
+.container-img-berita-user-detail {
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.judul-berita-user-detail h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.date-berita-user-detail {
+    color: #e74a3b;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.desc-berita-user-detail p {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* galeri foto */
+.container-img-galeri-user {
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.judul-galeri-user {
+    line-height: 1.3rem;
+    margin-top: -0.5rem;
+}
+
+.judul-galeri-user a {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.judul-galeri-user a:hover {
+    color: #e94a4b;
+}
+
+.date-galeri-user {
+    color: #e74a3b;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.img-detail-galeri {
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+
+/* HOME */
+
+.news .head {
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid gray;
+    border-radius: 2px;
+    padding-bottom: 0.5rem;
+}
+.news .head span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content { 
+    height: 100%;
+}
+
+/* content */
+.content .img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: salmon;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.title a {
+    color: #5a5c69;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.title a:hover {
+    color: salmon;
+}
+
+.date-category {
+    color: #e84545;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content .text-news {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+}
+
+.content .text-link {
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content .text-link a {
+    color: #e84545;
+
+}
+
+/* galeri */
+
+.galeri .head {
+    font-size: 1.5rem;
+    border-bottom: 0.2rem solid gray;
+    border-radius: 2px;
+    padding-bottom: 0.5rem;
+}
+
+.galeri .head span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.galeri .galeri-content {
+    height: 20rem;
+}
+
+.galeri .galeri-content .image {
+    width: 100%;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+}
+
+.galeri .galeri-content .title-galeri {
+    height: 4.5rem;
+    color: #5a5c69;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.video-content {
+    height: 15rem;
+}
+
+/* kepala sekolah */
+.headmaster-name {
+    color: #5a5c69;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.position {
+    color: #5a5c69;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 500; */
+    text-align: center;
+}
+
+/* post terkini */
+.post-title {
+    color: #5a5c69;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serifs;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #5a5c69;
+}
+
+.news-latest {
+    color: #5a5c69;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+   
+}
