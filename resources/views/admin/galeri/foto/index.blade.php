@@ -80,7 +80,7 @@
                                         <div>
                                             <a data-delete-url="{{ route('admin.galeri.foto.delete', $item->id) }}"
                                                 class="btn btn-sm btn-danger mx-1 deleteBtn"><i class="fa-solid fa-trash"></i></a>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </td>
                             </tr>

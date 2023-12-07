@@ -59,17 +59,17 @@
                                     <td>{{ $item->judul }}</td>
                                     <td>
                                         <div class="d-flex">
-                                            <button type="button" class="btn btn-sm btn-info mx-1"
-                                                data-bs-toggle="modal" data-bs-target="#detailModal{{ $item->id }}"><i
-                                                class="fa-solid fa-circle-info"></i></button>
+                                            <button type="button" class="btn btn-sm btn-info mx-1" data-bs-toggle="modal"
+                                                data-bs-target="#detailModal{{ $item->id }}"><i
+                                                    class="fa-solid fa-circle-info"></i></button>
 
                                             <button type="button" class="btn btn-sm btn-primary mx-1"
                                                 data-bs-toggle="modal" data-bs-target="#updateModal{{ $item->id }}"><i
                                                     class="fa-solid fa-pen-to-square"></i></button>
 
-
-                                            <a href="{{ route('admin.galeri.video.delete', $item->id) }}"
-                                                class="btn btn-sm btn-danger mx-1"><i class="fa-solid fa-trash"></i></a>
+                                            <a data-delete-url="{{ route('admin.galeri.video.delete', $item->id) }}"
+                                                class="btn btn-sm btn-danger mx-1 deleteBtn"><i
+                                                    class="fa-solid fa-trash"></i></a>
                                         </div>
                                     </td>
                                 </tr>
