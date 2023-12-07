@@ -29,7 +29,7 @@
         @else
             <div class="mb-2">
                 <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#createModal">Create</button>
+                    data-bs-target="#createModal">Tambah</button>
             </div>
         @endif
 
@@ -173,3 +173,4 @@
 
     </div>
 @endsection
+

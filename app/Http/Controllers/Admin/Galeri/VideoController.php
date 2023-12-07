@@ -37,7 +37,8 @@ class VideoController extends Controller
         }
 
         toast('Berhasil menambahkan data!', 'success');
-        return redirect()->back();
+        // return redirect()->back();
+        return response()->json(['success'=>'Successfully uploaded.']);
     }
 
     public function update(VideoRequest $request, $id) {

@@ -5,7 +5,9 @@
     <hr>
     <div class="container">
         @isset($strukturOrganisasi)
-            <img class="img-fluid rounded" src="{{ url('img/struktur_organisasi/' . $strukturOrganisasi->img) }}">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid rounded" src="{{ url('img/struktur_organisasi/' . $strukturOrganisasi->img) }}">
+            </div>
         @endisset
         @empty($strukturOrganisasi)
             <p class="text-center"><i>No Content!</i></p>

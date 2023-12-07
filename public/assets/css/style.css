@@ -311,3 +311,10 @@ html {
     text-align: justify;
    
 }
+
+/* progress bar */
+.percent {
+    position: absolute;
+    left: 50%;
+    color: black;
+}

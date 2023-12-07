@@ -23,7 +23,7 @@ class VideoRequest extends FormRequest
     {
         return [
             'judul' => 'required',
-            'video' => 'required|mimes:mp4|max:10000',
+            'video' => 'required|mimes:mp4',
         ];
     }
 

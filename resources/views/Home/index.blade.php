@@ -51,7 +51,7 @@
                         class="text-black"></span></a>
             </div>
             <div class="row align-items-center">
-                <div class="col-12 col-sm-12 col-lg-12 site-navigation text-center bg-danger rounded p-1">
+                <div class="col-12 col-sm-12 col-lg-12 site-navigation text-center bg-primary rounded p-1">
                     <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu text-danger">
                         <li class="{{ request()->is('/') ? 'active' : '' }}"><a
                                 href="{{ route('home.index') }}">Home</a></li>
