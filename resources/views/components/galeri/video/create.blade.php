@@ -28,10 +28,8 @@
                         <div class="mb-3">
                             <button type="submit" class="btn btn-sm btn-primary">Submit</button>
                         </div>
-                        <div class="form-group">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-                            </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
                         </div>
                     </div>
                 </form>

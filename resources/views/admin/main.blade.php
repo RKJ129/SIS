@@ -323,6 +323,7 @@
 
         $(function () {
             $(document).ready(function () {
+                let isSubmitting = false;
                 $('#fileUploadForm').ajaxForm({
                     beforeSend: function () {
                         var percentage = '0';
@@ -335,7 +336,10 @@
                     },
                     complete: function (xhr) {
                         console.log('File has uploaded');
-                        window.location.href="{{ route('admin.galeri.video.store') }}"
+                        // xhr.preventDefault();
+                        // document.getElementById('fileUploadForm').submit();
+                        // $('#fileUploadForm').submit();
+                        window.location.reload();
                     }
                 });
             });
